@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 .main-container{
-    margin: 2rem 4rem;
     text-align: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
 }
 .main-container h1{
     font-size: 5rem;
@@ -17,4 +20,9 @@
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(109, 190, 245);
+    margin-bottom: 4rem;
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
 }
