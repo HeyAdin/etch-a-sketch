@@ -9,6 +9,7 @@
     height: 100vh;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .main-container h1{
     font-size: 5rem;
@@ -23,6 +24,9 @@
     margin-bottom: 4rem;
 }
 .grid-container{
+    height: 600px;
+    width: 600px;
+    border: 1px solid gray;
     display: flex;
     justify-content: center;
 }
