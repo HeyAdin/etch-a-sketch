@@ -21,7 +21,7 @@
     font-weight: 700;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(109, 190, 245);
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 .grid-container{
     height: 600px;
@@ -29,4 +29,14 @@
     border: 1px solid gray;
     display: flex;
     justify-content: center;
+}
+#sizeText{
+    margin: 1rem;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px;
+    color: burlywood;
+    border: 1px solid aqua;
+    background-color: white;
 }
