@@ -23,6 +23,8 @@ mainContainer.insertBefore(sizeText,button);
         gridContainer.appendChild(gridWrap);
     }
 
+    
+
 
 button.addEventListener('click',()=>{
     const allWrapper = document.querySelectorAll('.wrapper');
